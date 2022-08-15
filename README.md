@@ -10,12 +10,15 @@ Here this project consist of mainly 5 microservices and those are
 Other components inside this architecture
 
 1.Service Registry – For this, I’m going to use Netflix Eureka Service Registry.
+
 2.API Gateway – Gateway will be configured using Spring cloud gateway.
+
 3. Configuration Service – This will be deployed using Spring Cloud Config Server and Client.
-4. Authentication – Here I’m using Keycloak for authentication and authorization, Keycloak is a open-source Identity management system and we could easily build user related stuff. Additionally, keycloak comes with a handy REST API that allows us to communicate as an API and get things done within seconds.
-5. Database – For this tutorial will use multiple MySQL database instances.
-6. Message Queues – RabbitMQ will be the main message queue supplier in this project and I’m having an idea of integrating more tools like RabbitMQ into this same project in the future.
-7. Logging – ELK stack will be used to manage logs and process custom datasets for quick queries inside the architecture.
-8. Server API Documentation – API documentation for microservices will be done using Swagger with UI.
-9.Monitoring – Here we are using Prometheus, Micrometer, and Grafana to monitor the whole application setup after deploying into the servers.
-10. Distributed tracing – Zipkin will be the tool that we are going to use with this project in order to trace whole application requests and details about the performance.
+4. 
+5. Authentication – Here I’m using Keycloak for authentication and authorization, Keycloak is a open-source Identity management system and we could easily build user related stuff. Additionally, keycloak comes with a handy REST API that allows us to communicate as an API and get things done within seconds.
+6. Database – For this tutorial will use multiple MySQL database instances.
+7. Message Queues – RabbitMQ will be the main message queue supplier in this project and I’m having an idea of integrating more tools like RabbitMQ into this same project in the future.
+8. Logging – ELK stack will be used to manage logs and process custom datasets for quick queries inside the architecture.
+9. Server API Documentation – API documentation for microservices will be done using Swagger with UI.
+10.Monitoring – Here we are using Prometheus, Micrometer, and Grafana to monitor the whole application setup after deploying into the servers.
+11. Distributed tracing – Zipkin will be the tool that we are going to use with this project in order to trace whole application requests and details about the performance.
